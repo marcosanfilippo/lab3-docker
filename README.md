@@ -8,7 +8,7 @@ Take volume path...
 # docker run -v /PATH_TO_VOLUME:/CONTAINER_PATH_TO_VOLUME -p 21707:21707 mongo
 
 Marco's PC:
-# docker run -v /mnt/sda1/var/lib/docker/volumes/lab3_mongo/_data:/data/db -p 21707:21707 mongo
+# docker run -v /mnt/sda1/var/lib/docker/volumes/lab3_mongo/_data:/data/db -p 27017:27017 --name CUSTOM_CONTAINER_NAME mongo
 
 Log:
 # docker logs -f CONTAINER_NAME
